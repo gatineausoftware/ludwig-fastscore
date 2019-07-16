@@ -2,9 +2,9 @@
 	"type":"record",
 	"name":"ludwig_titanic_input",
 	"fields":[
-		{"name":"Pclass", "type":"string"},
+		{"name":"Pclass", "type":"int"},
 		{"name":"Sex", "type":"string"},
-		{"name":"Age", "type":"int"},
+		{"name":"Age", "type":"float"},
 		{"name":"SibSp", "type":"int"},
 		{"name":"Parch", "type":"int"},
 		{"name":"Fare", "type":"float"},

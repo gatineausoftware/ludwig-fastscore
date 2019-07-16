@@ -16,3 +16,11 @@ fastscore schema add ludwig_titanic_input ludwig_titanic_input.avsc
 fastscore schema add ludwig_titanic_output ludwig_titanic_output.avsc
 
  fastscore stream add rest rest.json
+
+ fastscore use engine-2
+
+ fastscore run ludwig-titanic rest: rest:
+
+ cat test.json | fastscore model input
+
+ fastscore model output

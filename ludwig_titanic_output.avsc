@@ -2,6 +2,8 @@
 	"type": "record",
 	"name": "ludwig_titanic_output",
 	"fields": [
-		{"name":"Survived", "type":"float"}
+		{"name": "Survived_predictions", "type":"boolean"},
+		{"name": "Survived_probabilities", "type":"float"}
+
 	]
 }

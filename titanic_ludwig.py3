@@ -1,6 +1,7 @@
 #fastscore.action: unused
 #fastscore.schema.0: ludwig_titanic_input
 #fastscore.schema.1: ludwig_titanic_output
+#fastscore.module-attached: ludwig
 
 from fastscore.io import Slot
 from ludwig.api import LudwigModel
