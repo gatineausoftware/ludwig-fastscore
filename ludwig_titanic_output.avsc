@@ -1,0 +1,7 @@
+{
+	"type": "record",
+	"name": "ludwig_titanic_output",
+	"fields": [
+		{"name":"Survived", "type":"float"}
+	]
+}
